@@ -1,0 +1,7 @@
+analyseTemp t
+  | t < -20 = "Frisquet"
+  | t < 20 = "Nirvana"
+  | otherwise = "Canicule"
+
+main = do
+  analyseTemp 20

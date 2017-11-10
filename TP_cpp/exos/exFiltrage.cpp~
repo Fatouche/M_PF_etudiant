@@ -1,0 +1,11 @@
+#include <algorithm>
+#include <functional>
+#include <iostream>
+#include <vector>
+
+int main(){
+
+  std::vector<int> x {1,-2,3};
+   auto it = std::copy_if (vbegin(), v.end(), 0, [](int i){return !(i<0);} );
+
+}
